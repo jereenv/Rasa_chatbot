@@ -8,6 +8,36 @@ nlu:
     - hello
     - hey
 
+- lookup: affirm
+  examples: |
+    - yes
+    - yeah
+    - why not
+
+- lookup: deny
+  examples: |
+    - not
+    - no
+    - never
+    - nah
+
+- lookup: good
+  examples: |
+    - good
+   
+
+- lookup: sad
+  examples: |
+    - sad
+    - dull
+    
+
+- lookup: excitement
+  examples: |
+    - great
+    - awesome
+    - amazing
+
 
 - intent: greet
   examples: |
