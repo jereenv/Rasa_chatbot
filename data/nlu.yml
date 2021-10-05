@@ -1,6 +1,14 @@
 version: "2.0"
 
 nlu:
+
+- lookup: greet
+  examples: |
+    - hii
+    - hello
+    - hey
+
+
 - intent: greet
   examples: |
     - hey
