@@ -128,3 +128,19 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: emergency
+  examples: |
+    - how to commit suicide
+    - how to suicide
+    - how to die
+    - kill myself
+    - how to kill myself
+
+- intent: therapy
+  examples: |
+    - i am depressed
+    - i have anxiety
+    - i always feel depressed
+    - i feel anxious
+    - 
