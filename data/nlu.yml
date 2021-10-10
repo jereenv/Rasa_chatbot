@@ -143,4 +143,19 @@ nlu:
     - i have anxiety
     - i always feel depressed
     - i feel anxious
-    - 
+
+- intent: stress
+  examples: |
+    - i am stressed
+    - going through a tough time
+    - Anxiety
+
+- intent: physical_problems
+  examples: |
+    - Fatigue
+    - Headache
+    - Heart palpitations
+    - Mood swings
+    - Muscle tension and pain
+    - Stomach problems
+
