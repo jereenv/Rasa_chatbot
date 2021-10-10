@@ -159,3 +159,56 @@ nlu:
     - Muscle tension and pain
     - Stomach problems
 
+- intent: boring
+  examples: |
+    - life is boring
+    - I am bored
+    - I have nothing to do
+    - I dont know what to do
+    - I'm so bored right now
+    - I'm so bored
+    - I'm quite bored
+    - I'm not having very much fun right now
+    - I'm not having very much fun
+    - I'm not having fun
+    - I'm freaking bored
+    - I'm bored to death
+    - I'm bored stiff
+    - I'm bored out of my mind
+    - I'm very bored
+    - I'm bored AF
+    - It's been a boring week
+    - I could die from boredom
+    - I can't think of anything I want to do
+    - I can't help it. I'm bored
+    - I can't help but be bored
+    - I am so bored right now
+    - I am so bored
+    - I am bored at work
+    - I am bored
+    - I am always bored
+    - I always seem to be bored
+    - Help! I'm bored.
+    - God, I am so bored
+    - i m so tired
+
+- intent: work_problems
+  examples: |
+    - I have a lot of work to do
+    - exams are coming
+    - I have not studied enough
+    - So many assignments to do
+    - poor communication
+    - conflicting styles
+    - Interpersonal conflict
+    - Communication problems
+    - Gossip
+    - Bullying
+    - Harassment
+    - Discrimination
+    - Low motivation and job satisfaction
+    - Performance issues
+    - Poor job fit
+    - no job satisfaction
+    - stress at work
+
