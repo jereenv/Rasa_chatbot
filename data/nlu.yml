@@ -252,3 +252,12 @@ nlu:
     - What are your abilities
     - What are the tasks you can perfom
     - How can you help me
+
+- intent: relationship_issues
+  examples: |
+    - relationship issues
+    - problems with wife
+    - wife and i quarrel
+    - fight with partner
+    - fight wih husband
+    - 
