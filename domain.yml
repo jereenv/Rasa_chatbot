@@ -17,6 +17,8 @@ intents:
   - family_problems
   - project_tension
   - bot_abilities
+  - relationship_issues
+  - sleep_issues
 
 responses:
   utter_greet:
