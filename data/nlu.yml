@@ -212,3 +212,41 @@ nlu:
     - no job satisfaction
     - stress at work
 
+- intent: family_problems
+  examples: |
+    - I hate my family.
+    - I dont know if I can finish this or not
+    - Too much work
+    - I hate my household
+    - I'm hateful to my family
+    - i don't want to be with my family anymore.
+    - I'm not going to be with my family
+    - I don't want my family to be with me
+    - I wouldn't like to be with my family
+    - I'd like to run away from home
+    - i want to run away from my home
+    - My parent are fighting
+    - I fight with my parents
+    - My parents dont understand me
+    - My parents always undermine me
+    - I think my parents don't like me
+    - I fight with my sister
+    - I fight with my brother
+
+- intent: project_tension
+  examples: |
+    - My project is difficlut
+    - my project is difficult
+    - i have a difficult project
+    - my project deadline
+    - project deadline
+    - My project is hard
+    - I dont know how to do my project
+    - my project team is not good
+    - my project team is bad
+    - my project has no team work
+    
+- intent: bot_abilities
+  examples: |
+    - What can you do
+    - What are your abilities
