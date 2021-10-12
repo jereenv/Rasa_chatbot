@@ -260,4 +260,11 @@ nlu:
     - wife and i quarrel
     - fight with partner
     - fight wih husband
-    - 
+- intent: sleep_issues
+  examples: |
+    - cant sleep
+    - cannot sleep
+    - i have insomnia
+    - i have sleeping disorder
+    - I suffer from insomnia
+    
