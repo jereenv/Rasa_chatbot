@@ -8,6 +8,15 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - emergency
+  - therapy
+  - stress
+  - physical_problems
+  - boring
+  - work_problem
+  - family_problems
+  - project_tension
+  - bot_abilities
 
 responses:
   utter_greet:
