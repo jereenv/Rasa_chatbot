@@ -34,9 +34,13 @@ responses:
 
   utter_goodbye:
   - text: "Bye"
+  - text: "Take care!"
+  - 
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+  
+  
 
 session_config:
   session_expiration_time: 60
