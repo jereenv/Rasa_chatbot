@@ -37,11 +37,18 @@ responses:
   utter_goodbye:
   - text: "Bye"
   - text: "Take care!"
-  - 
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-  
+
+  utter_emergency:
+  - text: "You seem to be thinking strongly about something. Would you like to share?"
+  - text: "If you need more help on the topic, you can always call 9152987821 for assistance."
+
+  utter_therapy:
+  - text: "I feel that talking to a real person might help you. Would you like me to connect you to one of our professionals/therapists?"
+  - text: "Do you need someone to talk to? You can chose to talk to our therapists."
+
   
 
 session_config:
