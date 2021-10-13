@@ -29,3 +29,26 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+- story: emergency
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: emergency
+  - action: utter_emergency
+  - intent: affirm
+  - action: utter_iamhere
+  - intent: abstract
+  - action: utter_emergency2
+  - intent: greet
+  - action: utter_goodbye
+
+- story: emergency2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: emergency
+  - action: utter_emergency
+  - intent: deny
+  - action: utter_emergency2
+  - intent: greet
+  - action: utter_goodbye

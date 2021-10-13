@@ -43,6 +43,8 @@ responses:
 
   utter_emergency:
   - text: "You seem to be thinking strongly about something. Would you like to share?"
+  
+  utter_emergency2:
   - text: "If you need more help on the topic, you can always call 9152987821 for assistance."
 
   utter_therapy:
@@ -74,6 +76,8 @@ responses:
   - text: "You can talk to me about anything. You can consider me as your buddy. If you need, I can also connect you to our therapist."
   - text: "I can help you if you are going through some problems. You can talk to me about anything 🙂."
 
+  utter_iamhere:
+  - text: "Thats fine. I am here if you need me."
 
 
 session_config:
