@@ -53,4 +53,20 @@ stories:
   - intent: greet
   - action: utter_goodbye
 
-- story: 
+- story: boring
+  steps:
+  - intent: boring
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: family_probs
+  steps:
+  - intent: family_problems
+  - action: utter_familyprob
+  - intent: affirm
+  - action: utter_iamhere
+  - intent: greet
+  - intent: utter_goodbye
+
