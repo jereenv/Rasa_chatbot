@@ -70,3 +70,11 @@ stories:
   - intent: greet
   - intent: utter_goodbye
 
+- story: relationshipprob
+  steps:
+  - intent: relationship_issues
+  - action: utter_relationshipprob
+  - intent: affirm
+  - action: utter_iamhere
+  - intent: greet
+  - intent: utter_goodbye
