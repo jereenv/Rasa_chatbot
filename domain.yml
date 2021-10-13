@@ -61,7 +61,20 @@ responses:
   - text: "Look who's happy! Did you know that happiness is contagious?" 
 
   utter_familyprob:
-  - text: "Its common to feel intimidated by or angry towards your family members. But "
+  - text: "Its common to feel intimidated by or angry towards your family members. Do you want to talk about it? "
+
+  utter_sleep-issues:
+  - text: "Cant sleep? Try to increase physical activities and control your sleep environment and duration."
+  - text: "You seem to be having sleep related issues. Try to be more physically active. Doctors also suggest meditation before going to bed. If the problem persists, you should consider medications by consulting a doctor."
+
+  utter_relationshipprob:
+  - text: "Are you having relationship problems? Speaking about it might help."
+
+  utter_botabilities:
+  - text: "You can talk to me about anything. You can consider me as your buddy. If you need, I can also connect you to our therapist."
+  - text: "I can help you if you are going through some problems. You can talk to me about anything 🙂."
+
+
 
 session_config:
   session_expiration_time: 60
