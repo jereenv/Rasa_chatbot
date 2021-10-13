@@ -52,3 +52,5 @@ stories:
   - action: utter_emergency2
   - intent: greet
   - action: utter_goodbye
+
+- story: 
