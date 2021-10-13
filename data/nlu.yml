@@ -198,19 +198,16 @@ nlu:
     - exams are coming
     - I have not studied enough
     - So many assignments to do
-    - poor communication
-    - conflicting styles
-    - Interpersonal conflict
+
     - Communication problems
-    - Gossip
-    - Bullying
-    - Harassment
-    - Discrimination
+    
     - Low motivation and job satisfaction
-    - Performance issues
+    - Performance issues at work
     - Poor job fit
     - no job satisfaction
     - stress at work
+    - job problems
+    - less pay
 
 - intent: family_problems
   examples: |
