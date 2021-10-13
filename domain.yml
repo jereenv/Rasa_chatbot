@@ -49,7 +49,19 @@ responses:
   - text: "I feel that talking to a real person might help you. Would you like me to connect you to one of our professionals/therapists?"
   - text: "Do you need someone to talk to? You can chose to talk to our therapists."
 
-  
+  utter_stressed:
+  - text: "I can see that you are somewhat stressed. what can i do for you?"
+  - text: "Can you talk about why you are feeling stressed? I might be able to offer you some help."
+
+  utter_physicalprob:
+  - text: "Physical problems can sometimes be linked to your mental state. I would recommend you to take a few days off to rest your body and soul."
+
+  utter_happy:
+  - text: "Its so good to see that you are happy. You can always spread your happiness."
+  - text: "Look who's happy! Did you know that happiness is contagious?" 
+
+  utter_familyprob:
+  - text: "Its common to feel intimidated by or angry towards your family members. But "
 
 session_config:
   session_expiration_time: 60
