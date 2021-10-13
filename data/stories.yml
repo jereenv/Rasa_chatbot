@@ -78,3 +78,12 @@ stories:
   - action: utter_iamhere
   - intent: greet
   - intent: utter_goodbye
+
+- story: projecttension
+  steps:
+  - intent: project_tension
+  - action: utter_projecttension
+  - intent: affirm
+  - action: utter_iamhere
+  - intent: greet
+  - intent: utter_goodbye

@@ -79,6 +79,8 @@ responses:
   utter_iamhere:
   - text: "Thats fine. I am here if you need me."
 
+  utter_projecttension:
+  - text: "It seems that you are having some difficulties with your project. Try talking to your seniors or I am always here."
 
 session_config:
   session_expiration_time: 60
