@@ -234,6 +234,8 @@ responses:
   - text: "Bye"
   utter_outofscope:
   - text: "I cant understand what you are trying to say. Can you please rephrase?"
+  utter_elaborate:
+  - text: "Would you like to tell me more about it?"
   utter_smalltalk_agent_acquaintance:
     - text: "I'm a conversational app."
     - text: "I'm a virtual being, not a real person."
