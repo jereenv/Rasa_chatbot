@@ -1,0 +1,90 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- emergency:
+    use_entities: true
+- therapy:
+    use_entities: true
+- stress:
+    use_entities: true
+- physical_problems:
+    use_entities: true
+- boring:
+    use_entities: true
+- work_problem:
+    use_entities: true
+- family_problems:
+    use_entities: true
+- project_tension:
+    use_entities: true
+- bot_abilities:
+    use_entities: true
+- relationship_issues:
+    use_entities: true
+- sleep_issues:
+    use_entities: true
+- abstract:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_emergency:
+  - text: You seem to be thinking strongly about something. Would you like to share?
+  utter_emergency2:
+  - text: If you need more help on the topic, you can always call 9152987821 for assistance.
+  utter_therapy:
+  - text: I feel that talking to a real person might help you. Would you like me to connect you to one of our professionals/therapists?
+  - text: Do you need someone to talk to? You can chose to talk to our therapists.
+  utter_stressed:
+  - text: I can see that you are somewhat stressed. what can i do for you?
+  - text: Can you talk about why you are feeling stressed? I might be able to offer you some help.
+  utter_physicalprob:
+  - text: Physical problems can sometimes be linked to your mental state. I would recommend you to take a few days off to rest your body and soul.
+  utter_familyprob:
+  - text: 'Its common to feel intimidated by or angry towards your family members. Do you want to talk about it? '
+  utter_sleep-issues:
+  - text: Cant sleep? Try to increase physical activities and control your sleep environment and duration.
+  - text: You seem to be having sleep related issues. Try to be more physically active. Doctors also suggest meditation before going to bed. If the problem persists, you should consider medications by consulting a doctor.
+  utter_relationshipprob:
+  - text: Are you having relationship problems? Speaking about it might help.
+  utter_botabilities:
+  - text: You can talk to me about anything. You can consider me as your buddy. If you need, I can also connect you to our therapist.
+  - text: I can help you if you are going through some problems. You can talk to me about anything 🙂.
+  utter_iamhere:
+  - text: Thats fine. I am here if you need me.
+  utter_projecttension:
+  - text: It seems that you are having some difficulties with your project. Try talking to your seniors or I am always here.
+  utter_goodbye:
+  - text: Bye
+actions: []
+forms: {}
+e2e_actions: []

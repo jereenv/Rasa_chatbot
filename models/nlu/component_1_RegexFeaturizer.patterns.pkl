@@ -1,0 +1,26 @@
+[
+    {
+        "name": "greet",
+        "pattern": "(\\bhii\\b|\\bhello\\b|\\bhey\\b)"
+    },
+    {
+        "name": "affirm",
+        "pattern": "(\\byes\\b|\\byeah\\b|\\bwhy\\ not\\b)"
+    },
+    {
+        "name": "deny",
+        "pattern": "(\\bnot\\b|\\bno\\b|\\bnever\\b|\\bnah\\b)"
+    },
+    {
+        "name": "good",
+        "pattern": "(\\bgood\\b)"
+    },
+    {
+        "name": "sad",
+        "pattern": "(\\bsad\\b|\\bdull\\b)"
+    },
+    {
+        "name": "excitement",
+        "pattern": "(\\bgreat\\b|\\bawesome\\b|\\bamazing\\b)"
+    }
+]

@@ -1,3 +1,4 @@
+
 version: "2.0"
 
 nlu:
@@ -161,6 +162,7 @@ nlu:
 
 - intent: boring
   examples: |
+    - cheer me up
     - life is boring
     - I am bored
     - I have nothing to do
@@ -206,6 +208,10 @@ nlu:
     - stress at work
     - job problems
     - less pay
+    - got fired
+    - got less marks
+    - no job promotion
+    - 
 
 - intent: family_problems
   examples: |
@@ -264,3 +270,12 @@ nlu:
     - I suffer from insomnia
     - Change in sleeping environment
     - change in my sleeping place
+
+- intent: abstract
+  examples: |
+    - aewijawognasg
+
+- intent: out_of_scope
+  examples: |
+    - order food
+    - jump up and down
