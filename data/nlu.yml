@@ -88,6 +88,7 @@ nlu:
     - don't like that
     - no way
     - not really
+    - not
 
 - intent: mood_great
   examples: |
@@ -141,6 +142,8 @@ nlu:
     - how to die
     - kill myself
     - how to kill myself
+    - i want to kill someone
+    - i want to kill my neighbor
 
 - intent: therapy
   examples: |
@@ -215,13 +218,17 @@ nlu:
     - got fired
     - got less marks
     - no job promotion
-    - 
+    - teacher scolded me
+    - my teacher is bad
+    - i hate my teachers
+    - i hate my school
+    - my school hates me
+    - my exams are near
+    - i cant study properly
 
 - intent: family_problems
   examples: |
     - I hate my family.
-    - I dont know if I can finish this or not
-    - Too much work
     - I hate my household
     - I'm hateful to my family
     - i don't want to be with my family anymore.
@@ -230,13 +237,13 @@ nlu:
     - I wouldn't like to be with my family
     - I'd like to run away from home
     - i want to run away from my home
-    - My parent are fighting
+    - My parents are fighting
     - I fight with my parents
     - My parents dont understand me
     - My parents always undermine me
     - I think my parents don't like me
-    - I fight with my sister
-    - I fight with my brother
+    - I fight with my sister regularly
+    - I fight with my brother often
 
 - intent: project_tension
   examples: |

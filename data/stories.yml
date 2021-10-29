@@ -27,6 +27,7 @@ stories:
   - action: utter_cheer_up
   - action: utter_did_that_help
   - intent: deny
+  - action: utter_therapy
   - action: utter_goodbye
 
 - story: emergency
@@ -37,8 +38,8 @@ stories:
   - action: utter_emergency
   - intent: affirm
   - action: utter_iamhere
-  - intent: abstract
-  - action: utter_emergency2
+  - intent: emergency
+  - action: utter_therapy2
   - intent: greet
   - action: utter_goodbye
 
@@ -49,17 +50,11 @@ stories:
   - intent: emergency
   - action: utter_emergency
   - intent: deny
-  - action: utter_emergency2
+  - action: utter_therapy2
   - intent: greet
   - action: utter_goodbye
 
-- story: boring
-  steps:
-  - intent: boring
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
+
 
 - story: family_probs
   steps:
@@ -87,3 +82,13 @@ stories:
   - action: utter_iamhere
   - intent: greet
   - action: utter_goodbye
+
+- story: workproblems
+  steps:
+  - intent: work_problems
+  - action: utter_workprob
+  - intent: abstract
+  - action: utter_elaborate
+  - intent: greet
+  - action: utter_goodbye
+

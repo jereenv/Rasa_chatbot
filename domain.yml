@@ -26,8 +26,8 @@ responses:
   utter_greet:
   - text: "Hey! How are you?"
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: "Hope this puppy will cheer you up:"
+    image: "https://imgur.com/wecz217"
   utter_did_that_help:
   - text: "Did that help you?"
   utter_happy:
@@ -39,8 +39,10 @@ responses:
   utter_emergency2:
   - text: "If you need more help on the topic, you can always call 9152987821 for assistance."
   utter_therapy:
-  - text: "I feel that talking to a real person might help you. Would you like me to connect you to one of our professionals/therapists?"
-  - text: "Do you need someone to talk to? You can chose to talk to our therapists."
+  - text: "I feel that talking to a real person might help you. Would you like me to connect you to one of our professionals/therapists? \n https://dummy.com"
+  - text: "Do you need someone to talk to? You can chose to talk to our therapists. \n https://dummy.com"
+  utter_therapy2:
+  - text: "In that case, it would be better if you contact one of our professionals. Here's a link to get you started with your fist session. \n https://dummy.com"
   utter_stressed:
   - text: "I can see that you are somewhat stressed. what can i do for you?"
   - text: "Can you talk about why you are feeling stressed? I might be able to offer you some help."
@@ -66,6 +68,8 @@ responses:
   - text: "I cant understand what you are trying to say. Can you please rephrase?"
   utter_elaborate:
   - text: "Would you like to tell me more about it?"
+  utter_workprob:
+  - text: "Its okay if life's being hard on you. Feel free to talk with me anytime."
 
 
 session_config:
