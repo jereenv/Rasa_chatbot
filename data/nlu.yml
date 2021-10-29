@@ -91,6 +91,7 @@ nlu:
 
 - intent: mood_great
   examples: |
+    - i am happy
     - perfect
     - great
     - amazing
@@ -105,6 +106,9 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - i am fine
+    - i am doing good
+    - i feel happy
 
 - intent: mood_unhappy
   examples: |
@@ -116,7 +120,7 @@ nlu:
     - I'm so sad
     - sad
     - very sad
-    - unhappy
+    - i am unhappy
     - not good
     - not very good
     - extremly sad
